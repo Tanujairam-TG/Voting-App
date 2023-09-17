@@ -40,7 +40,7 @@ RUN cp .env.example .env
 RUN php artisan migrate --seed
 
 # Expose port 9000 (change as needed)
-EXPOSE 9000
+# EXPOSE 9000
 
 # Start PHP-FPM server
 CMD ["php-fpm"]
