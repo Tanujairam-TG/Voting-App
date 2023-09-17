@@ -1,5 +1,5 @@
 # Use an official PHP runtime as a parent image
-FROM php:7.4-fpm
+FROM php:8.0-fpm
 
 # Install system dependencies and required PHP extensions
 RUN apt-get update && apt-get install -y \
